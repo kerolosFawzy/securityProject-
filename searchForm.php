@@ -1,53 +1,3 @@
-<?php
-include 'curl.php';
-session_start();
-$fakeUserApi = "https://supermarketsecurity.000webhostapp.com/api/user/readByEmail.php";
-$fakeProductApi = "https://supermarketsecurity.000webhostapp.com/api/user/readByEmail.php";
-if (isset($_SESSION['email']) && isset($_SESSION['type'])) {
-
-    if (isset($_POST['userEmail'])) {
-        $userEmail = strip_tags($_POST['userEmail']);
-        if (strlen($userEmail) > 50) {
-            echo 'Too Long Input';
-        }else {
-            $ch = curl_init($fakeUserApi);
-            $data = array('email'=>$userEmail);
-
-            curl_setopt_array($ch, array(
-                CURLOPT_RETURNTRANSFER => true,
-                CURLOPT_POSTFIELDS=>json_encode($data)
-            ));
-            curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
-
-
-            $output = curl_exec($ch);
-            echo $output;
-            curl_close($ch);
-            $response = json_decode($output, true);
-            echo $response;
-//            $get_data =  mCurl::callAPI('GET', $fakeUserApi.'?name=',$userEmail );
-//            $response = json_decode($get_data, true);
-//            $data = $response['name'][0];
-//            echo $data .'  '. $response;
-        }
-
-    }
-    if (isset($_POST['productName'])) {
-        $productName = strip_tags($_POST['productName']);
-        if (strlen($userEmail) > 50) {
-            echo 'Too Long Input';
-        }else {
-
-        }
-
-    }
-
-
-} else {
-    header('location: index.php');
-}
-?>
-
 <html>
 
 <head>
@@ -192,14 +142,8 @@ if (isset($_SESSION['email']) && isset($_SESSION['type'])) {
 <!-- search form 6 -->
 <div class="button_box2">
     <h3>Get user Data By Email</h3>
-    <form action="getApiData.php" method="GET" class="form-wrapper-2 cf">
+    <form action="getApiData.php" method="post" class="form-wrapper-2 cf">
         <input name="userEmail" type="text" placeholder="Search For user By Email" required>
-        <button type="submit">Search</button>
-    </form>
-    <br><br><br>
-    <h3>Get Product Data By Name</h3>
-    <form method="post" class="form-wrapper-2 cf">
-        <input name="productName" type="text" placeholder="Search For product By name" required>
         <button type="submit">Search</button>
     </form>
 </div>

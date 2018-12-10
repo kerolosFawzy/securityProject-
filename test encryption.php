@@ -21,8 +21,8 @@ function my_decrypt($data, $key) {
 }
 
 $password_plain =array('message'=>'hi',
-    'gfsdg'=>'gfgdfgd',
-    'fdgfgh'=>'hfgjghiy');
+    'name'=>'kero',
+    'emial'=>'kero@gmail.com');
 $data = json_encode($password_plain);
 
 

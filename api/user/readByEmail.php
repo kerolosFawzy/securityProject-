@@ -4,19 +4,10 @@ header('Content-Type: application/json');
 
 include_once '../../config/DataBaseCon.php';
 include_once '../../models/user.php';
-include_once '../../Encryption.php';
 
 $database = new DataBaseCon();
 $db = $database->connection();
 $user = new user($db);
-
-echo "iam here ";
-//------------------test space-------------------------------------
-$key = $_GET['key'];
-$en=new Encryption();
-echo $en->decryptData($_GET['id'],$key).'<br>';
-//-----------------------------------------------------------------
-
 $get = isset($_GET['email']) ? $_GET['email'] : die();
 $email = strip_tags($get);
 if(strlen($email)>70){
