@@ -2,7 +2,7 @@
 
 class Encryption
 {
-       private $config = array(
+    private $config = array(
         "digest_alg" => "sha512",
         "private_key_bits" => 4096,
         "private_key_type" => OPENSSL_KEYTYPE_RSA,
@@ -11,27 +11,29 @@ class Encryption
     public static $publicKey;
     public static $privateKey;
 
-    public function __construct()
+    //to get new key
+    public function init()
     {
-        if (!isset($publicKey)) {
-            $res = openssl_pkey_new($this->config);
-            openssl_pkey_export($res, Encryption::$privateKey);
-            Encryption::$publicKey = openssl_pkey_get_details($res);
-            Encryption::$publicKey = Encryption::$publicKey["key"];
-        }
-
+        $res = openssl_pkey_new($this->config);
+        openssl_pkey_export($res, Encryption::$privateKey);
+        Encryption::$publicKey = openssl_pkey_get_details($res);
+        Encryption::$publicKey = Encryption::$publicKey["key"];
     }
 
-    public function encryptData($data)
+
+    //to encrypt @param ARRAY , and the key
+    public function encryptData($data, $PublicKey)
     {
         $dataJson = json_encode($data);
-        openssl_public_encrypt($dataJson, $encrypted, Encryption::$publicKey);
+        openssl_public_encrypt($dataJson, $encrypted, $PublicKey);
         return $encrypted;
     }
 
-    public function decryptData($encryptedData)
+
+    //to decrypt @param JSON , and the key return ARRAY
+    public function decryptData($encryptedData, $PrivateKey)
     {
-        openssl_private_decrypt($encryptedData, $decrypted, Encryption::$privateKey);
+        openssl_private_decrypt($encryptedData, $decrypted, $PrivateKey);
         $dataArray = json_decode($decrypted);
         return $dataArray;
     }

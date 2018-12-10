@@ -4,7 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/api/user/readByEmail.php" line="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac05b7a-a2ac-40bd-b955-b9367d6232a5" name="Default" comment="" />
+    <list default="true" id="4ac05b7a-a2ac-40bd-b955-b9367d6232a5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Encryption.php" beforeDir="false" afterPath="$PROJECT_DIR$/Encryption.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +30,8 @@
       <file leaf-file-name="Encryption.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Encryption.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+            <state relative-caret-position="270">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -76,6 +80,9 @@
       <find>form-wrapper-2</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -120,12 +127,13 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -226,12 +234,12 @@
       <workItem from="1544284384097" duration="28671000" />
       <workItem from="1544327804850" duration="2012000" />
       <workItem from="1544377194967" duration="7339000" />
-      <workItem from="1544399855360" duration="12379000" />
+      <workItem from="1544399855360" duration="12828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100127000" />
+    <option name="totallyTimeSpent" value="100576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -241,7 +249,7 @@
       <window_info anchor="bottom" id="PHP-CGI Server" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50130206" side_tool="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986979" weight="0.32965517" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14648438" />
@@ -588,8 +596,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Encryption.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        <state relative-caret-position="270">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
