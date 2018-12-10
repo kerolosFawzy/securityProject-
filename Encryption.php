@@ -24,8 +24,7 @@ class Encryption
     //to encrypt @param ARRAY , and the key
     public function encryptData($data, $PublicKey)
     {
-        $dataJson = json_encode($data);
-        openssl_public_encrypt($dataJson, $encrypted, $PublicKey);
+        openssl_public_encrypt($data, $encrypted, $PublicKey);
         return $encrypted;
     }
 
@@ -34,8 +33,7 @@ class Encryption
     public function decryptData($encryptedData, $PrivateKey)
     {
         openssl_private_decrypt($encryptedData, $decrypted, $PrivateKey);
-        $dataArray = json_decode($decrypted);
-        return $dataArray;
+        return $decrypted;
     }
 
 }

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/api/user/readByEmail.php" line="10" />
+    <bookmark url="file://$PROJECT_DIR$/api/user/readByEmail.php" line="17" />
+    <bookmark url="file://$PROJECT_DIR$/api/user/readByEmail.php" line="12" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ac05b7a-a2ac-40bd-b955-b9367d6232a5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Encryption.php" beforeDir="false" afterPath="$PROJECT_DIR$/Encryption.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/user/readByEmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/user/readByEmail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getApiData.php" beforeDir="false" afterPath="$PROJECT_DIR$/getApiData.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,25 +25,7 @@
         <entry file="file://$PROJECT_DIR$/apis maded.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="6" column="77" selection-start-line="6" selection-end-line="6" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Encryption.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Encryption.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getApiData.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getApiData.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="6" column="25" selection-start-line="6" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -48,22 +33,51 @@
       <file leaf-file-name="searchForm.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/searchForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="194" column="32" selection-start-line="194" selection-start-column="32" selection-end-line="194" selection-end-column="32" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="-694">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="curl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/curl.php">
+      <file leaf-file-name="Encryption.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Encryption.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="-18">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getApiData.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/getApiData.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="501">
+              <caret line="24" column="83" lean-forward="true" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readByEmail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/user/readByEmail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test encryption.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test encryption.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -100,16 +114,16 @@
         <option value="$PROJECT_DIR$/api/product/getPrice.php" />
         <option value="$PROJECT_DIR$/api/user/ReadByName.php" />
         <option value="$PROJECT_DIR$/config/DataBaseCon.php" />
-        <option value="$PROJECT_DIR$/apis maded.txt" />
         <option value="$PROJECT_DIR$/curl.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/api/user/readByEmail.php" />
         <option value="$PROJECT_DIR$/test encryption.php" />
         <option value="$PROJECT_DIR$/api/user/GetAllUsers.php" />
         <option value="$PROJECT_DIR$/encrytioners.php" />
         <option value="$PROJECT_DIR$/searchForm.php" />
-        <option value="$PROJECT_DIR$/getApiData.php" />
         <option value="$PROJECT_DIR$/Encryption.php" />
+        <option value="$PROJECT_DIR$/apis maded.txt" />
+        <option value="$PROJECT_DIR$/api/user/readByEmail.php" />
+        <option value="$PROJECT_DIR$/getApiData.php" />
       </list>
     </option>
   </component>
@@ -127,7 +141,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -234,12 +248,12 @@
       <workItem from="1544284384097" duration="28671000" />
       <workItem from="1544327804850" duration="2012000" />
       <workItem from="1544377194967" duration="7339000" />
-      <workItem from="1544399855360" duration="12828000" />
+      <workItem from="1544399855360" duration="18010000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100576000" />
+    <option name="totallyTimeSpent" value="105758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -509,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/user/readByEmail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/user/GetAllUsers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="783">
@@ -537,32 +544,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test encryption.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-93">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1404">
           <caret line="52" column="21" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="194" column="32" selection-start-line="194" selection-start-column="32" selection-end-line="194" selection-end-column="32" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -580,24 +565,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getApiData.php">
+    <entry file="file://$PROJECT_DIR$/Encryption.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="-18">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/user/readByEmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apis maded.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="6" column="77" selection-start-line="6" selection-end-line="6" selection-end-column="77" />
+          <caret line="6" column="25" selection-start-line="6" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Encryption.php">
+    <entry file="file://$PROJECT_DIR$/test encryption.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="434">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-694">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getApiData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="24" column="83" lean-forward="true" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="83" />
         </state>
       </provider>
     </entry>
