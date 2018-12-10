@@ -1,0 +1,8 @@
+https://supermarketsecurity.000webhostapp.com/api/product/getAllProducts.php
+https://supermarketsecurity.000webhostapp.com/api/product/getPrice.php?name=
+
+
+
+https://supermarketsecurity.000webhostapp.com/api/user/GetAllUsers.php
+https://supermarketsecurity.000webhostapp.com/api/user/readByEmail.php?email=
+https://supermarketsecurity.000webhostapp.com/api/user/ReadByName.php?name=
